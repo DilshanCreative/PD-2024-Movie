@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url('https://images.unsplash.com/photo-1516410529446-2c777cb7366d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+body {
+  background-color: #181818c4;
+  color: #f1f1f1;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+}
+h5 {
+    text-align: center;
+    color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+}
+
+.movie-card {
+    transition: transform 0.2s;
+    animation: fadeIn 1s ease-in-out;
+    width: 100%;           /* Change width as needed */
+    margin: 0 auto;       /* Center the card horizontally */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #23232396;
+    color: #f1f1f1;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card .card-body {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+batton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+batton:hover {
+    background-color: #0056b3;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    color: #0056b3;
+}   
